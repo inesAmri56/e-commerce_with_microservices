@@ -15,9 +15,5 @@ public class Gallery {
     @GeneratedValue( strategy = GenerationType.IDENTITY)
     private  Long id;
     String url_photo;
- //  @ManyToOne
- //    @JoinColumn(name = "product_id")
- //    @JsonIgnoreProperties("gallery")
- //    private Product product;
 
 }
